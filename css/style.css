@@ -13,6 +13,23 @@
     src: url("../helvetica-neue-5/HelveticaNeueLight.otf") format("opentype");
 }
 
+.white {
+    color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "HelveticaNeue", sans-serif;
+}
+
+p {
+    font-family: "HelveticaNeue", sans-serif;
+}
+
 /* ===================================
              header
    =================================== */
@@ -184,20 +201,21 @@
     position: relative;
     z-index: 1;
     padding: 0 40px;
-    color: white;
     text-align: center;
-    width: 1000px;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
-.section-contant h1 {
+.text-contant h1 {
     font-size: 72px;
     font-weight: 700;
     line-height: 1.7;
     margin: 0 0 0 20px;
     font-family: "HelveticaNeue", sans-serif;
+
 }
 
-.section-contant p {
+.text-contant p {
     margin: 0 0 0 20px;
     font-family: "HelveticaNeue", sans-serif;
     max-width: 500px;
@@ -297,7 +315,47 @@
     left: 0;
 }
 
+.our-culter {
+    display: grid;
+    grid-template-columns: auto 43%;
+    margin-left: calc(25% - 25vw);
+    margin-right: calc(25% - 25vw);
+}
 
+.media-text-wp {
+    grid-column: 2;
+    grid-row: 1;
+    align-self: center;
+}
+
+.media-text {
+    grid-column: 1;
+    grid-row: 1;
+    padding: 0 40px;
+    text-align: start;
+}
+
+.media {
+    border-radius: 15px;
+    box-shadow: 0 10px 25px #00000040;
+    width: 79%;
+}
+
+.media-text h2 {
+    margin-bottom: 48px;
+    font-size: 48px;
+}
+
+.media-text h4 {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.media-text p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 25px;
+}
 
 /* ============================================
                     Footer
@@ -379,4 +437,31 @@
 .footer-legal {
     font-family: "HelveticaNeue", sans-serif;
     font-size: 18px;
+}
+
+
+/* section page conatint */
+.page-section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-right: 0;
+    max-width: 900px;
+    line-height: 25px;
+    padding-left: 0;
+}
+
+.section-page-content p {
+    margin-bottom: 40px;
+    font-size: 18px;
+    font-family: "HelveticaNeue", sans-serif;
+    text-align: start;
+}
+
+.section-page-content h2 {
+    font-size: 48px;
+    text-align: start;
+    line-height: 58px;
+    font-weight: 700;
+    font-family: "HelveticaNeue", sans-serif;
+    margin-bottom: 39px;
 }

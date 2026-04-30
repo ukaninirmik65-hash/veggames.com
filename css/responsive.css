@@ -141,18 +141,30 @@
     /* ============================================           
      Video-section & image section
      ============================================ */
-    .section-contant h1 {
+    .text-contant h1,
+    .background-image-height .section-contant h1 {
         font-size: 36px;
         line-height: 50px;
     }
 
-    .section-contant p {
+    .text-contant p {
         font-size: 22px;
     }
 
-    .background-image-height .section-contant h1 {
+    .background-image-height .text-contant h1 {
         font-size: 36px;
         line-height: 43px;
+    }
+
+    .media-text h2 {
+        margin-bottom: 19px;
+        font-size: 24px;
+    }
+
+    .media-text p {
+        margin-bottom: 10px;
+        font-size: 18px;
+        line-height: 25px;
     }
 
     /* ====================================            
