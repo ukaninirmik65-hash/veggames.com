@@ -6,6 +6,10 @@
         display: none;
     }
 
+    .section {
+        padding: 80px 0;
+    }
+
     .header nav {
         display: block;
         height: auto;
@@ -15,6 +19,11 @@
         width: auto;
         opacity: 1;
         animation: none;
+    }
+
+    .block-culamn {
+        flex-basis: calc(50% - 16px);
+        flex-grow: 0;
     }
 }
 
@@ -99,6 +108,7 @@
         line-height: 34px;
         width: 100%;
         margin-top: 38px;
+
     }
 
     .links.active {
@@ -138,6 +148,26 @@
         width: 100%;
     }
 
+    .heder-menu li:nth-child(1) {
+        animation-delay: 0.1s;
+    }
+
+    .heder-menu li:nth-child(2) {
+        animation-delay: 0.2s;
+    }
+
+    .heder-menu li:nth-child(3) {
+        animation-delay: 0.3s;
+    }
+
+    .heder-menu li:nth-child(4) {
+        animation-delay: 0.4s;
+    }
+
+    .heder-menu li:nth-child(5) {
+        animation-delay: 0.5s;
+    }
+
     /* ============================================           
      Video-section & image section
      ============================================ */
@@ -167,6 +197,30 @@
         line-height: 25px;
     }
 
+
+    .section-page-content h2 {
+        font-size: 24px;
+        margin-bottom: 19px;
+        line-height: 25px;
+    }
+
+    .page-paddind {
+        padding-right: 40px;
+        line-height: 25px;
+        padding-left: 40px;
+    }
+
+
+    .media-text h4 {
+        font-size: 18px;
+        margin-bottom: 10px;
+        line-height: 22px;
+    }
+
+    .block-cover {
+        right: 0%;
+    }
+
     /* ====================================            
                  Footer
       ==================================== */
@@ -193,6 +247,7 @@
     .footer-nav ul li {
         animation: none;
     }
+
 }
 
 @media screen and (max-width:425px) {
@@ -217,6 +272,38 @@
         flex-wrap: wrap;
     }
 
+    .section-page-content p {
+        font-size: 16px;
+    }
+
+    .our-culter {
+        display: grid;
+        grid-template-columns: 100%;
+        padding-bottom: 50px;
+    }
+
+    .media-text-wp {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .media-text {
+        padding: 0 20px;
+        font-size: 16px;
+    }
+
+    .media {
+        width: 100%;
+    }
+
+    .media-text p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .p-t {
+        padding-top: 40px;
+    }
 
     .footer-contant ul .animation {
         width: 50%;

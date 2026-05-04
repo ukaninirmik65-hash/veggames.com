@@ -38,6 +38,7 @@ p {
     width: 100%;
     height: 71px;
     background-color: #ffff;
+    border-bottom: 1px solid #efefef;
 }
 
 
@@ -204,6 +205,12 @@ p {
     text-align: center;
     max-width: 900px;
     margin: 0 auto;
+    position: relative;
+}
+
+.max-width {
+    max-width: 1180px;
+    margin: 0 auto;
 }
 
 .text-contant h1 {
@@ -315,47 +322,6 @@ p {
     left: 0;
 }
 
-.our-culter {
-    display: grid;
-    grid-template-columns: auto 43%;
-    margin-left: calc(25% - 25vw);
-    margin-right: calc(25% - 25vw);
-}
-
-.media-text-wp {
-    grid-column: 2;
-    grid-row: 1;
-    align-self: center;
-}
-
-.media-text {
-    grid-column: 1;
-    grid-row: 1;
-    padding: 0 40px;
-    text-align: start;
-}
-
-.media {
-    border-radius: 15px;
-    box-shadow: 0 10px 25px #00000040;
-    width: 79%;
-}
-
-.media-text h2 {
-    margin-bottom: 48px;
-    font-size: 48px;
-}
-
-.media-text h4 {
-    margin-bottom: 10px;
-    font-size: 24px;
-}
-
-.media-text p {
-    margin-bottom: 20px;
-    font-size: 18px;
-    line-height: 25px;
-}
 
 /* ============================================
                     Footer
@@ -441,13 +407,13 @@ p {
 
 
 /* section page conatint */
+
+
 .page-section {
     padding-top: 80px;
     padding-bottom: 80px;
-    padding-right: 0;
-    max-width: 900px;
     line-height: 25px;
-    padding-left: 0;
+
 }
 
 .section-page-content p {
@@ -464,4 +430,95 @@ p {
     font-weight: 700;
     font-family: "HelveticaNeue", sans-serif;
     margin-bottom: 39px;
+}
+
+
+.our-culter {
+    display: grid;
+    grid-template-columns: auto 43%;
+    margin-left: calc(25% - 25vw);
+    margin-right: calc(25% - 25vw);
+}
+
+.media-text-wp {
+    grid-column: 2;
+    grid-row: 1;
+    align-self: center;
+}
+
+.media-text {
+    grid-column: 1;
+    grid-row: 1;
+    padding: 0 40px;
+    text-align: start;
+}
+
+.media {
+    border-radius: 15px;
+    box-shadow: 0 10px 25px #00000040;
+    width: 79%;
+}
+
+.media-text h2 {
+    margin-bottom: 48px;
+    font-size: 48px;
+}
+
+.media-text h4 {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.media-text p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+
+.block-cover {
+    background: url('../img/join-us.jpg') center no-repeat;
+    background-size: cover;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    width: 100vw;
+    min-height: 430px;
+    margin-bottom: 30px;
+}
+
+.block-culamn {
+    align-self: center;
+    flex-basis: 50%;
+}
+
+.block-culamns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 calc(32% - 25vw);
+    max-width: 1000%;
+    position: relative;
+    left: 0%;
+    right: 0;
+    width: auto;
+    text-align: start;
+}
+
+
+.font-size {
+    font-size: 20px;
+}
+
+.block-culamn a {
+    display: block;
+    font-size: 24px;
+    margin-bottom: 31px;
+    color: #2579b5;
+}
+
+.block-culamn {
+    margin-left: 32px;
 }
